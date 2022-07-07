@@ -49,7 +49,9 @@ public class FunctionMappings {
                 s(SqlStdOperatorTable.SUM, "sum"),
                 s(SqlStdOperatorTable.COUNT, "count"),
                 s(SqlStdOperatorTable.APPROX_COUNT_DISTINCT, "approx_count_distinct"),
-                s(SqlStdOperatorTable.AVG, "avg"))
+                s(SqlStdOperatorTable.AVG, "avg"),
+                s(SqlStdOperatorTable.GROUPING, "grouping"),
+                s(SqlStdOperatorTable.GROUPING_ID, "grouping_id"))
             .build();
 
     WINDOW_SIGS =

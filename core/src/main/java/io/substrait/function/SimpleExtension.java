@@ -344,6 +344,8 @@ public class SimpleExtension {
       return super.toString();
     }
 
+    @Nullable
+    @JsonProperty("intermediate")
     public abstract TypeExpression intermediate();
 
     AggregateFunctionVariant resolve(String uri, String name, String description) {
